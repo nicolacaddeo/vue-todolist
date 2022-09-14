@@ -1,0 +1,9 @@
+.list-container li {
+    width: 100%;
+    background-color: #999;
+    list-style-type: none;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
