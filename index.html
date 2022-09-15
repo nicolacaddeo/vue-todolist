@@ -25,7 +25,7 @@
                         <span :class="todo.done ? 'done' : '' ">
                             {{ toDos[i].text }}
                         </span>
-                        <span class="cross">
+                        <span class="cross" @click="deleteToDo(todo)">
                             <i class="bi bi-x-octagon-fill"></i>
                         </span>
                     </li>

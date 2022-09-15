@@ -29,6 +29,8 @@ const app = new Vue({
         toDos
     },
     methods: {
-
+        deleteToDo: function (element) {
+            element.done = true
+        }
     }
 });
