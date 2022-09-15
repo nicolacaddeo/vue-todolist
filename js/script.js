@@ -26,7 +26,8 @@ const toDos = [
 const app = new Vue({
     el: '#root',
     data: {
-        toDos
+        toDos,
+        newToDo: ''
     },
     methods: {
         deleteToDo: function (element) {

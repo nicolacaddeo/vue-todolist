@@ -30,3 +30,13 @@ body {
 .done {
     text-decoration: line-through;
 }
+
+/***** input area *****/
+textarea {
+    margin-left: 25px;
+}
+
+.add-task textarea,
+button {
+    vertical-align: middle;
+}
