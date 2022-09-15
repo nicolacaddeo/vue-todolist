@@ -21,11 +21,12 @@
             <div class="list-container">
                 <ul>
                     <li v-for="(todo, i) in toDos">
-                        <span class="cross">
-                            <i class="bi bi-x-octagon-fill"></i>
-                        </span>
+                        <span class="counter">{{ i + 1 }}</span>
                         <span>
                             {{ toDos[i].text }}
+                        </span>
+                        <span class="cross">
+                            <i class="bi bi-x-octagon-fill"></i>
                         </span>
                     </li>
                 </ul>
