@@ -32,6 +32,14 @@ const app = new Vue({
     methods: {
         deleteToDo: function (element) {
             element.done = true
+        },
+        addNewToDo: function () {
+            const toDo = {
+                text: this.newToDo,
+                done: false
+            }
+            this.toDos.push(toDo)
+            this.newToDo = ''
         }
     }
 });
