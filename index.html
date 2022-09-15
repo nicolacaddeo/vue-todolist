@@ -22,7 +22,7 @@
                 <ul>
                     <li v-for="(todo, i) in toDos">
                         <span class="counter">{{ i + 1 }}</span>
-                        <span>
+                        <span :class="todo.done ? 'done' : '' ">
                             {{ toDos[i].text }}
                         </span>
                         <span class="cross">

@@ -26,3 +26,7 @@ body {
     display: inline-block;
     margin-right: 0.5rem;
 }
+
+.done {
+    text-decoration: line-through;
+}
